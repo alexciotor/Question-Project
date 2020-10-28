@@ -34,9 +34,21 @@ h1 {
 }
 
 .btn {
-  font-weight: 500;
   background-color: white;
   border: none;
   width: 400px;
   height: 40px;
+}
+.btn::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0fe";
+  font-size: 24px;
+  float: right;
+}
+
+.is-open::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f146";
+  font-size: 24px;
+  float: right;
 }
